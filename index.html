@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear Email Templates - Terminal Style</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #66ff66;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 20px;
+    }
+    a {
+      color: #66ff66;
+    }
+    h1, h2, h3 {
+      color: #99ff99;
+      border-bottom: 2px solid #66ff66;
+      padding-bottom: 5px;
+    }
+    details {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      display: block;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+    pre {
+      background-color: #222;
+      padding: 10px;
+      border-left: 4px solid #66ff66;
+      overflow-x: auto;
+    }
+    .disclaimer {
+      border: 1px dashed #66ff66;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+  <h1>Email Template Navigator</h1>
+  <div class="disclaimer">
+    ⚠️ <strong>Disclaimer:</strong> These templates are 100% voluntary. You are free to modify, skip, remix, or ignore any part. No thought crimes here since 1984. Communicate your way :).
+  </div>
+
+  <nav>
+    <a href="#problem">🛠️ Problem Email</a>
+    <a href="#success">🏆 Success Email</a>
+    <a href="#idea">💡 Idea Email</a>
+    <a href="#question">❓ Question Email</a>
+  </nav>
+
+  <section id="problem">
+    <h2>🛠️ Problem Email Template</h2>
+    <pre>
+Subject: ⚠️ [Short Description of Problem]
+
+Context:
+Briefly state the situation neutrally.
+🟢 Tip: Use clear and unbiased language to avoid emotional tone.
+
+Label:
+Problem
+🟢 Tip: Always label it so the reader knows it needs attention.
+
+Explanation:
+- Reason 1
+- Reason 2
+- Reason 3
+🟢 Tip: Use bullet points to make reasons scannable and concise.
+
+Action:
+- What should be done?
+🟢 Tip: Propose realistic actions and invite collaboration.
+
+Reflection:
+How do you feel about the situation?
+🟢 Tip: Be honest but constructive.
+🟢 Optional: “I feel ___ because ___.”
+🟢 Optional checklist: [ ] Frustrated  [ ] Blocked  [ ] Motivated  [ ] Curious  [ ] Concerned
+
++Q (Optional):
+Do you want feedback/input?
+🟢 Tip: Make your question specific and actionable.
+    </pre>
+    <details>
+      <summary>📧 Full Example</summary>
+      <pre>
+Subject: ⚠️ Missed QA Sync – Feature Z
+
+Context:
+We missed a critical QA sync before the release of Feature Z.
+
+Label:
+Problem
+
+Explanation:
+- QA test cases were not reviewed before deployment
+- Regression suite was outdated
+- Developer handover was delayed
+
+Action:
+- Propose to add mandatory pre-release QA checklist
+- Set a fixed weekly sync between QA and Dev
+
+Reflection:
+I felt uneasy releasing without proper QA review. I’m concerned this may affect user trust.
+
++Q:
+Would a 15-minute pre-release QA review help mitigate this?
+      </pre>
+    </details>
+  </section>
+
+  <section id="success">
+    <h2>🏆 Success Email Template</h2>
+    <pre>
+Subject: 🎉 [Short Summary of Success]
+
+Context:
+What went well and why it matters.
+🟢 Tip: Keep it concise but impactful to highlight value.
+
+Label:
+Success
+🟢 Tip: Labeling helps shift team mindset toward learning and recognition.
+
+Explanation:
+- Key reasons for success
+🟢 Tip: Focus on specific actions or processes that worked.
+
+Acknowledgment:
+Recognize individuals/tools that contributed.
+🟢 Tip: Public praise boosts morale and motivation.
+
+Reflection:
+Share your feelings about the outcome.
+🟢 Tip: Make it personal to show authentic appreciation.
+🟢 Optional: “I feel proud because…” or “This made me happy because…”
+🟢 Optional checklist: [ ] Proud  [ ] Grateful  [ ] Excited  [ ] Inspired
+
++Q (Optional):
+Can this be reused or scaled?
+🟢 Tip: Encourage others to replicate success.
+    </pre>
+    <details>
+      <summary>📧 Full Example</summary>
+      <pre>
+Subject: 🎉 Clean Release – Feature Y
+
+Context:
+Feature Y was deployed with zero post-release bugs.
+
+Label:
+Success
+
+Explanation:
+- Risk-based testing covered key scenarios
+- Daily syncs improved alignment
+- Automation suite caught regressions
+
+Acknowledgment:
+Kudos to Sara and the QA crew for rigorous prep work!
+
+Reflection:
+I feel proud and grateful for the team’s attention to detail. This shows what good collaboration can achieve.
+
++Q:
+Should we document this QA process in our playbook?
+      </pre>
+    </details>
+  </section>
+
+  <section id="idea">
+    <h2>💡 Idea Email Template</h2>
+    <pre>
+Subject: 💡 [Idea Title – What It Improves]
+
+Context:
+What’s the current challenge or insight?
+🟢 Tip: Tie it to a real observation or team pain point.
+
+Label:
+Idea
+🟢 Tip: Clearly frame it as a proposal, not a directive.
+
+Explanation:
+- Describe the situation
+- Share your idea
+🟢 Tip: Be specific about what you're proposing and why.
+
+Action:
+- What are you asking for?
+🟢 Tip: Include a small, testable first step.
+
+Reflection:
+Why this might help
+🟢 Tip: Share your motivation and expected value.
+🟢 Optional: “I feel hopeful because…”
+🟢 Optional checklist: [ ] Optimistic  [ ] Curious  [ ] Inspired  [ ] Nervous
+
++Q (Optional):
+Invite comments or improvements
+🟢 Tip: Encourage collaboration to refine the idea.
+    </pre>
+    <details>
+      <summary>📧 Full Example</summary>
+      <pre>
+Subject: 💡 QA Test Plan Sync Doc
+
+Context:
+Test plans often get reviewed too late.
+
+Label:
+Idea
+
+Explanation:
+- We're finalizing tests after dev starts
+- I propose we use a shared review doc pre-sprint
+
+Action:
+Can we try it next sprint?
+
+Reflection:
+I feel optimistic that this will reduce rework and make expectations clearer.
+
++Q:
+Would this fit your current workflow?
+      </pre>
+    </details>
+  </section>
+
+  <section id="question">
+    <h2>❓ Question Email Template</h2>
+    <pre>
+Subject: ❓ [Key Question Topic]
+
+Context:
+Background needed to understand the question.
+🟢 Tip: Provide enough context to make the question meaningful.
+
+Label:
+Question
+🟢 Tip: Helps others switch to problem-solving mode.
+
+Explanation:
+- What’s the context
+- What’s unclear or blocked
+🟢 Tip: State knowns and unknowns clearly.
+
+Action:
+- What input or decision do you need?
+🟢 Tip: Make the ask direct and easy to answer.
+
+Reflection:
+Any concerns or uncertainties you feel
+🟢 Tip: Helps humanize the request.
+🟢 Optional: “I feel unsure because…” or “This feels unclear due to…”
+🟢 Optional checklist: [ ] Curious  [ ] Unsure  [ ] Blocked  [ ] Eager to learn
+
++Q:
+Main question clearly phrased
+🟢 Tip: Avoid vagueness; use one concise question.
+    </pre>
+    <details>
+      <summary>📧 Full Example</summary>
+      <pre>
+Subject: ❓ Choosing Between BrowserStack & LambdaTest
+
+Context:
+We need to decide which platform to use for browser testing.
+
+Label:
+Question
+
+Explanation:
+- BrowserStack is faster but costlier
+- LambdaTest supports more legacy devices but has flakier logs
+
+Action:
+I'd like your input on which trade-off is more important.
+
+Reflection:
+I feel unsure which tradeoff supports our goals best. I’m open to any perspective.
+
++Q:
+Which tool better supports our test goals this quarter?
+      </pre>
+    </details>
+  </section>
+</body>
+</html>
